@@ -120,3 +120,40 @@
 // ];
 // console.log(heroes.slice(0, 2)); //here from 1 to 2 means just show 0 and 1 not 2 last number not show any display.
 // console.log(heroes.slice()); //If you dont end any number it return the all vlaues.
+
+//8-Splice - Add, Remove and Replace in orignal array
+// let heroes = [
+//   "Ramzan",
+//   "Sir Zia",
+//   "Sir Kasim",
+//   "Sir Daniyal Nagoori",
+//   "Governor Kamran Tessori",
+//   "Sir Irfan Malik",
+// ];
+// heroes.splice(2, 2, "Sir Ramzan", "Sir Hassan");
+// console.log(heroes);
+
+//Add Element in the array
+// heroes.splice(0, 0, "Dr Shehraz");
+// console.log(heroes);
+
+//Delete Element in the array
+// heroes.splice(0, 2,);
+// console.log(heroes);
+
+//Replace Element in the array
+// heroes.splice(0, 1, "Dr Shehraz");
+// console.log(heroes);
+
+//Practice Question
+// let companies = ["Netflix", "Bloomberg", "Uber", "Ola", "Microsoft"];
+//console.log(companies);
+// let deletedItems = companies.shift();
+// console.log(companies);
+// console.log(deletedItems);
+// companies.splice(2,2,);
+// console.log(companies);
+// companies.splice(2, 1, "Amazon");
+// console.log(companies);
+// companies.push("Netsol");
+// console.log(companies);
