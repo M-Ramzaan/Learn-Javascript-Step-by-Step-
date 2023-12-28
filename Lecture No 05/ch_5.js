@@ -185,19 +185,19 @@
 
 //Practice Questions:
 //Take number from the user and make array upto the user given number.
-let n = prompt("Enter the number");
-let arr = [];
-for (let i = 1; i <= n; i++) {
-  arr[i - 1] = i;
-}
-console.log(arr);
+// let n = prompt("Enter the number");
+// let arr = [];
+// for (let i = 1; i <= n; i++) {
+//   arr[i - 1] = i;
+// }
+// console.log(arr);
 
-let sum = arr.reduce((res, curr) => {
-  return res + curr;
-});
-console.log("Sum =", sum);
+// let sum = arr.reduce((res, curr) => {
+//   return res + curr;
+// });
+// console.log("Sum =", sum);
 
-let mul = arr.reduce((res, curr) => {
-  return res * curr;
-});
-console.log("Mul =", mul);
+// let mul = arr.reduce((res, curr) => {
+//   return res * curr;
+// });
+// console.log("Mul =", mul);
