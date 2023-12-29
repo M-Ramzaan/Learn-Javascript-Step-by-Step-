@@ -52,6 +52,28 @@
 // let div = document.querySelector("div");
 // console.dir(div);
 
-//Home Work = Read about firstchild, last child, children and text, comment and element notes read via MDN Docs.
+//3-InnerHTML = return the plain text or HTML content of the element.
+//div.innerHTML //Use it directly in the console window
 
-//Start lec from 6:37:42
+//Example of innerText & innerHTML
+// let myheading = document.querySelector("h2");
+//We can change it dynamically in the consile via JS directly by using following ways,
+//1- myheading.innerText = "New Heading" // Use it directly in the console window.
+//2- myheading.innerHTML = "<i>New Heading</i>" // Use it directly in the console window.
+
+//4-textContent = return textual content even for hidden elements.
+//I make my h2 hidden in HTML linked file to this js and then use this property.
+//h2.textContent //Use it directly in the console window.
+
+//Practice Question 01
+// let h3 = document.querySelector("h3");
+// console.dir(h3);
+// h3.innerText = h3.innerText + "from APNA COLLEGE students.";
+
+//Practice Question 02
+let divs = document.querySelectorAll(".Box");
+console.log(divs);
+divs[0].innerText = "new unique value1";
+divs[1].innerText = "new unique value2";
+divs[2].innerText = "new unique value3";
+//Home Work = Read about firstchild, last child, children and text, comment and element notes read via MDN Docs.
