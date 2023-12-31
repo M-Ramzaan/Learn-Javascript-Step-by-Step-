@@ -71,9 +71,9 @@
 // h3.innerText = h3.innerText + "from APNA COLLEGE students.";
 
 //Practice Question 02
-let divs = document.querySelectorAll(".Box");
-console.log(divs);
-divs[0].innerText = "new unique value1";
-divs[1].innerText = "new unique value2";
-divs[2].innerText = "new unique value3";
+// let divs = document.querySelectorAll(".Box");
+// console.log(divs);
+// divs[0].innerText = "new unique value1";
+// divs[1].innerText = "new unique value2";
+// divs[2].innerText = "new unique value3";
 //Home Work = Read about firstchild, last child, children and text, comment and element notes read via MDN Docs.
