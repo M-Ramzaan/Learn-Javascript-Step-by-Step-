@@ -9,3 +9,11 @@ body {
   color: white;
   border: solid black 1px;
 }
+
+.para {
+  color: chocolate;
+}
+
+.para2 {
+  background-color: green;
+}
