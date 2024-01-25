@@ -285,30 +285,30 @@ function getData(dataId) {
 
 //Async-Await perfect example
 
-async function getAllData() {
-  console.log("Getting Data 01");
-  await getData(1);
-  console.log("Getting Data 02");
-  await getData(2);
-  console.log("Getting Data 03");
-  await getData(3);
-  console.log("Getting Data 04");
-  await getData(4);
-  console.log("Getting Data 05");
-  await getData(5);
-}
+// async function getAllData() {
+//   console.log("Getting Data 01");
+//   await getData(1);
+//   console.log("Getting Data 02");
+//   await getData(2);
+//   console.log("Getting Data 03");
+//   await getData(3);
+//   console.log("Getting Data 04");
+//   await getData(4);
+//   console.log("Getting Data 05");
+//   await getData(5);
+// }
 
 //Advanced JS concept
 //IIFE = Immidietly Invoked Function Expression;
-(async function () {
-  console.log("Getting Data 01");
-  await getData(1);
-  console.log("Getting Data 02");
-  await getData(2);
-  console.log("Getting Data 03");
-  await getData(3);
-  console.log("Getting Data 04");
-  await getData(4);
-  console.log("Getting Data 05");
-  await getData(5);
-})();
+// (async function () {
+//   console.log("Getting Data 01");
+//   await getData(1);
+//   console.log("Getting Data 02");
+//   await getData(2);
+//   console.log("Getting Data 03");
+//   await getData(3);
+//   console.log("Getting Data 04");
+//   await getData(4);
+//   console.log("Getting Data 05");
+//   await getData(5);
+// })();
